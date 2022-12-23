@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Weather app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Enter City Name" />
+      <button class="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </header>
+
+    <main>
+      <section class="location">
+        <div class="city"></div>
+        <div class="date"></div>
+      </section>
+
+      <div class="current">
+        <div class="temp"><span></span></div>
+        <div class="weather"></div>
+      </div>
+    </main>
+  </div>
+
+  <div class="copyright" id="copyRightHostx">
+    © 2022 Pratik. Privacy Policy&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/pratikkarna/">About us</a>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

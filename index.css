@@ -1,0 +1,110 @@
+html {
+  background-repeat: no-repeat;
+  background-size: to bottom;
+  font-family: "Poppins", fantasy;
+}
+
+.title {
+  color: rgb(40, 40, 155);
+}
+
+.app {
+  background-image: linear-gradient(to bottom,
+      rgb(14, 9, 9),
+      rgba(1, 1, 1, 0.6));
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 15px 15px;
+  margin-bottom: 40px;
+}
+
+header input {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  border-radius: 16px 0px 16px 0px;
+  background-color: rgb(246, 234, 234);
+
+  color: #000001f6;
+  font-size: 50px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgb(243, 228, 228);
+}
+
+button {
+  margin-left: 50px;
+  color: #e91313;
+  background-color: rgba(242, 243, 244, 0.927);
+  border: none;
+  outline: none;
+  max-width: 280px;
+  padding: 20px 30px;
+  border-radius: 700px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 25 px 50px;
+}
+
+.location .city {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgb(3, 239, 11);
+}
+
+.location .date {
+  color: rgb(238, 226, 236);
+  font-size: 25px;
+}
+
+.current .temp {
+  color: rgb(222, 6, 6);
+  font-size: 105px;
+  font-weight: 900;
+  text-shadow: 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.current .temp span {
+  font-weight: 500;
+  text-shadow: 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.current .weather {
+  color: rgba(233, 222, 232, 0.938);
+  font-size: 38px;
+  font-weight: 600;
+  text-shadow: 0px 2px rgba(6, 1, 5, 0.918);
+  font-style: bold;
+}
+
+.copyright {
+  border-top: 25px solid #111220;
+  background-color: #111220;
+  text-align: center;
+  color: #f6f4f4;
+  font-size: 25px;
+  padding: 11px;
+}
